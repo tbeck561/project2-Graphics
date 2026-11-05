@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minecraft at Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minecraft at Home</h1>
+    <p><b>Tyler Beck</b> · Intro to Computer Graphics · Project 2: Cube World</p>
+    <p>A landscape made entirely of one 2×2×2 cube, drawn with WebGL. Pick a level below.
+      This page needs a reasonably modern computer at the larger grid sizes.</p>
+  </header>
+
+  <div id="controls">
+    <div id="levels">
+      <button data-level="0" class="active">L0</button>
+      <button data-level="1a">L1a</button>
+      <button data-level="1b">L1b</button>
+      <button data-level="1c">L1c</button>
+      <button data-level="1d">L1d</button>
+      <button data-level="2">L2</button>
+      <button data-level="3">L3</button>
+      <button data-level="4">L4</button>
+    </div>
+    <label>Grid size
+      <select id="resolution">
+        <option value="10">10 × 10</option>
+        <option value="25">25 × 25</option>
+        <option value="50" selected>50 × 50</option>
+        <option value="100">100 × 100</option>
+        <option value="150">150 × 150</option>
+      </select>
+    </label>
+  </div>
+  <p id="info"></p>
+
+  <canvas id="canvas"></canvas>
+  <script src="math.js"></script>
+  <script src="cube.js"></script>
+  <script src="webgl.js"></script>
+  <script src="landscape.js"></script>
+  <script src="sky.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

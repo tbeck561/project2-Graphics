@@ -1,0 +1,10 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #1e1f22; color: #eee; }
+header { padding: 14px 20px; }
+h1 { margin: 0; font-size: 28px; }
+header p { margin: 4px 0; color: #aaa; }
+#controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 0 20px 10px; }
+#levels button { background: #333; color: #eee; border: 1px solid #555; padding: 6px 12px; cursor: pointer; }
+#levels button.active { background: #5aa83a; border-color: #5aa83a; color: #000; }
+select { padding: 5px; margin-left: 12px; }
+#info { padding: 0 20px 10px; margin: 0; color: #ccc; }
+canvas { display: block; width: 100%; height: calc(100vh - 190px); min-height: 360px; }
