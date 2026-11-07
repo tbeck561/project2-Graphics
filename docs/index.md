@@ -1,4 +1,4 @@
-# Minecraft at Home
+
 
 **Tyler Beck** · Intro to Computer Graphics (CS 5160) · Project 2: Cube World · University of Cincinnati, Fall 2026
 
@@ -286,8 +286,15 @@ Since P0 and P3 are off the edges of the landscape, each object starts and ends 
 I used Claude, Anthropic's AI assistant, for this project:
 
 - **Code:** Claude wrote the base template for the project and helped organize the problems that I solved based on the class material. Anyquestions I had I asked AI for assistance solving too.
-- **Images:** the height map and color map came from a Python script Claude wrote based on a drawing I made.
-- **Documentation:** Claude drafted this page and i wrote 
+- **Images:** the height map and color map came from a Python script Claude made, Claude also made the graph for the Bézier curve explaination.
+- **Documentation:** Claude drafted the md file and I wrote the material. 
+
+## How I followed the Course Guidelines
+
+- I've disclosed Claude wrote code and docs draft.
+- The ideas and decisions were mine. I drew the design sketch, and decided what to build and what to cut.
+- This project is connected to the class concepts: transformations, the camera, the GPU pipeline, interpolation, Bézier curves and lighting.
+- I can explain how the code works.
 
 
 
