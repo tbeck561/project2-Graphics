@@ -23,7 +23,7 @@ The ground heights and colors come from two images, a grayscale height map and a
 
 ### What I was going for
 
-I wanted it to look like a Minecraft knockoff, almost right but kind of off. The plan was one square chunk of land floating in the sky:
+I wanted it to look like a Minecraft knockoff. The plan was one square chunk of land floating in the sky:
 
 - **River:** comes in from the top edge and runs down into a lake.
 - **Flatlands and farmland:** on the right side next to the river, with patchy fields.
